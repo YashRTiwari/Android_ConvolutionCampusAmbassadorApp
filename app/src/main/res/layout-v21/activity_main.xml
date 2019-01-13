@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.ydev.convolution2018.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgHeader"
+        android:layout_width="match_parent"
+
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:scaleType="fitStart"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_focused" />
+
+    <ImageView
+        android:id="@+id/imgConvLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_weight="1.6"
+        android:src="@drawable/convolutionlogo"
+        app:srcCompat="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imgName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTeamMemberImage"
+        app:srcCompat="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnGoogleLogin"
+        android:layout_width="wrap_content"
+
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.27"
+        android:background="@drawable/button_border"
+        android:elevation="19dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Sign in with Google"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgFooter"
+        android:layout_width="match_parent"
+
+        android:layout_height="80dp"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="0.7"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:color/black" />
+
+</LinearLayout>

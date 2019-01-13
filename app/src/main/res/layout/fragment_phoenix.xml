@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ydev.convolution2018.Phoenix.PhoenixFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundimg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:id="@+id/phoenixImage"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="centerCrop"
+                    android:src="@android:color/transparent" />
+
+                <com.github.glomadrian.grav.GravView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_centerInParent="true"
+                    app:animationGenerators="@array/path"
+                    app:array_colors="@array/falcon"
+                    app:ball_size_from_size="3dp"
+                    app:ball_size_to_size="6dp"
+                    app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+                    app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+                    app:path="@string/circle"
+                    app:path_max_duration="6000"
+                    app:path_min_duration="5000"
+                    app:path_original_height="@integer/circle_original_height"
+                    app:path_original_width="@integer/circle_original_width"
+                    app:path_variance_from="-10dp"
+                    app:path_variance_to="12dp"
+                    app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+                    app:regular_cell_size="150"
+                    app:regular_variance="100" />
+
+                <com.github.glomadrian.grav.GravView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_centerInParent="true"
+                    app:animationGenerators="@array/path"
+                    app:array_colors="@array/falcon"
+                    app:ball_size_from_size="3dp"
+                    app:ball_size_to_size="6dp"
+                    app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+                    app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+                    app:path="@string/circle"
+                    app:path_max_duration="4000"
+                    app:path_min_duration="3000"
+                    app:path_original_height="@integer/circle_original_height"
+                    app:path_original_width="@integer/circle_original_width"
+                    app:path_variance_from="-10dp"
+                    app:path_variance_to="12dp"
+                    app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+                    app:regular_cell_size="150"
+                    app:regular_variance="100" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/phoenix_intro"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

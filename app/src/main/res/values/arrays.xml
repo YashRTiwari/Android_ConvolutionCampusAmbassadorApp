@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="falcon">
+        <item>#106fff</item>
+        <item>#80e5ff</item>
+        <item>#1048a3</item>
+        <item>#bce5ff</item>
+    </string-array>
+
+
+    <string-array name="path">
+        <item>com.github.glomadrian.grav.generator.animation.PathAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.BallSizeAnimator</item>
+    </string-array>
+
+
+    <string-array name="team_member_number">
+
+        <item>8349387195</item>
+        <item>9575151674</item>
+        <item>8602755762</item>
+        <item>9424899840</item>
+        <item>8770786108</item>
+
+        <item>9753815821</item>
+        <item>9981201333</item>
+        <item>8458838704</item>
+        <item>8982176103</item>
+        <item>8719838363</item>
+
+        <item>8602131562</item>
+        <item>9111995716</item>
+        <item>8827875356</item>
+        <item>8109460545</item>
+
+        <item>9406908227</item>
+        <item>9713838398</item>
+        <item>7389751423</item>
+        <item>7694873271</item>
+        <item>7415609165</item>
+
+        <item>8223863251</item>
+        <item>7773083097</item>
+        <item>9179683267</item>
+        <item>8109138932</item>
+        <item>8223012923</item>
+
+        <item>7987339335</item>
+        <item>9165249390</item>
+        <item>9713950170</item>
+        <item>9754406633</item>
+        <item>7000120637</item>
+
+        <item>7869797185</item>
+        <item>8871332965</item>
+        <item>9752154240</item>
+        <item>9589992888</item>
+        <item>8962439150</item>
+        <item>9907497729</item>
+        <item>8349591607</item>
+        <item>7440950343</item>
+        <item>8770574891</item>
+
+    </string-array>
+</resources>

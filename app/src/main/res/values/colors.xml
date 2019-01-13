@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fragment_background">#222222</color>
+    <color name="leaderboard_content">#045181</color>
+    <color name="red">#ff0000</color>
+    <color name="one">#d0d7dc</color>
+</resources>

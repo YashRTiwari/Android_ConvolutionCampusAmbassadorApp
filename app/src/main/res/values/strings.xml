@@ -1,0 +1,637 @@
+<resources>
+
+    <string name="app_name">Convolution 2018</string>
+
+    <string-array name="event_title">
+
+        <item>Events</item>
+        <item>Workshops</item>
+        <item>Initiative</item>
+        <item>Fun Activities</item>
+
+    </string-array>
+
+    <string-array name="event_content">
+
+        <item name="events">
+
+            Here are some interesting and thrilling events that would mesmerize
+            your mind and also radiate your creativity. So, bring your ideas
+            to life and let your brain play the game.
+
+        </item>
+
+        <item name="workshop">
+
+            Learning is a process that lasts life long, without which no quest
+            can be won and no change can be brought about. Come and learn
+            at Convolution's out of the world workshops. Be at the locus
+            of innovation, Embrace the Unconventional and walk out with the
+            ability to change.
+
+        </item>
+
+        <item name="initiative">
+
+            Taking an initiative is taking charge to bring about a change for others without
+            anything in it for you. Team Convolution pledges to come together with leaders
+            and innovators and strive to transform our world into a place sustainable for all.
+
+        </item>
+
+        <item name="fun_activities">
+
+            Techfests are not just limited to technology and science,
+            there are fun games and activities too, so as to make an
+            already amazing fest an even better one.
+
+        </item>
+
+
+    </string-array>
+
+    <string-array name="phoenix_member_name">
+
+        <item>Ashesh Pathak</item>
+        <item>Avi Agrawal</item>
+        <item>Divyanshu Rathore</item>
+
+    </string-array>
+
+    <string-array name="phoenix_member_role">
+
+        <item>Head Coordinator</item>
+        <item>Event Coordinator</item>
+        <item>Event Coordinator</item>
+
+    </string-array>
+
+    <string-array name="phoenix_member_contact">
+
+        <item>9753815821</item>
+        <item>9406908227</item>
+        <item>8962439150</item>
+
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">Home</string>
+
+    <integer name="call_activity">1000</integer>
+    <integer name="tech_supprt">1006</integer>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="event_lists">
+
+        <!--<item>Dalal Street (1)</item>
+        <item>Horcrux (2)</item>
+        <item>Quizologist (2)</item>
+        <item>Novus (1)</item>
+        <item>Gauntlet (4)</item>
+        <item>Labyrinth (4)</item>
+
+        <item>AutoCAD Workshop</item>
+        <item>Machine Learning Workshop</item>
+        <item>Stock Trading Workshop</item>-->
+
+    </string-array>
+
+    <string-array name="event_lists_prices">
+
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+
+    </string-array>
+
+    <string-array name="zonals_event">
+
+        <item>Gauntlet Zonal (4)</item>
+        <item>Quizologist Zonal(2)</item>
+        <item>Code.IO Zonal(2)</item>
+        <item>Eureka Zonal(4)</item>
+
+    </string-array>
+
+    
+    <string-array name="zonals_event_price">
+
+        <item>0</item>
+        <item>50</item>
+        <item>50</item>
+        <item>50</item>
+
+    </string-array>
+
+    <string-array name="team_size">
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+
+    </string-array>
+
+    <string-array name="all_events">
+
+        <item>Gauntlet Zonal</item>
+        <item>Quizologist Zonal</item>
+        <item>Code.IO Zonal</item>
+        <item>Eureka Zonal</item>
+
+        <!--<item>Dalal Street</item>
+        <item>Horcrux</item>
+        <item>Quizologist</item>
+        <item>Novus</item>
+        <item name="Gripper">Gauntlet</item>
+        <item name="Maze Runner">Labyrinth</item>
+
+        <item>Workshop: Autocad</item>
+        <item>Workshop: Machine Learning</item>
+        <item>Workshop: Stock Trading</item>-->
+
+        <item>Accommodation</item>
+
+    </string-array>
+
+    <string-array name="php_events">
+
+        <item name="Hackathon">zonals_robo_gripper</item>
+        <item>zonals_quizologist</item>
+        <item>zonals_codewar</item>
+        <item>zonals_eureka</item>
+
+       <!-- <item name="Dalal Street">dalaal_street</item>
+        <item name="Horcrux">horcrux</item>
+        <item name="Quizologist">quizologist</item>
+        <item name="Novus">novus</item>
+        <item name="Gripper">gripper</item>
+        <item name="MazeRunner">maze_runner</item>
+
+        <item name="Workshops: Autocad">iot</item>
+        <item name="Workshops: Machine Learning">machine_learning</item>
+        <item name="Workshops: Stock Trading">stock_trading_workshop</item>-->
+
+        <item name="Accommodation">accommodation</item>
+
+    </string-array>
+
+    <string-array name="php_events_final">
+
+        <!--<item name="Dalal Street">dalaal_street</item>
+        <item name="Horcrux">horcrux</item>
+        <item name="Quizologist">quizologist</item>
+        <item name="Novus">novus</item>
+        <item name="Gripper">gripper</item>
+        <item name="MazeRunner">maze_runner</item>
+
+        <item name="Workshop: AutoCAD">iot</item>
+        <item name="Workshop: Machine Learning">machine_learning</item>
+        <item name="Workshop: Stock Trading">stock_trading_workshop</item>-->
+
+        <item name="Accommodation">accommodation</item>
+
+    </string-array>
+
+    <string-array name="php_events_zonals">
+
+        <item name="Hackathon">zonals_robo_gripper</item>
+        <item>zonals_quizologist</item>
+        <item>zonals_codewar</item>
+        <item>zonals_eureka</item>
+
+    </string-array>
+
+    <string-array name="year">
+
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+    </string-array>
+
+    <string-array name="tech_support_name">
+
+        <item>Yash Rajendra Tiwari</item>
+        <item>Ayush Gupta</item>
+
+    </string-array>
+
+    <string-array name="tech_support_number">
+
+        <item>8602755762</item>
+        <item>8458838704</item>
+    </string-array>
+
+    <string-array name="tech_suppot_role">
+
+        <item>Android Application Developer</item>
+        <item>Website Developer</item>
+    </string-array>
+
+
+    <string name="uit_rgpv">University Institute of Technology RGPV</string>
+
+    <string name="history_location">History and Location</string>
+
+    <string name="campus_layout">Campus Layout and Environment</string>
+
+    <string name="contact">Contact</string>
+
+    <string name="contact_value">
+        University Institute of Technology Narsingharh By pass Road,\nNear Gandhi Nagar, Bhopal M.P\n+(91)-(755)-2678812,\nFax :2678819</string>
+
+    <string name="uit_rgpv_value">
+        
+        UIT-RGPV, Bhopal is a community of teachers, staff and students,
+        who are dedicated to the achievement of a shared vision of excellence. 
+        The community believes in renewing and transferring knowledge and skills and
+        the development of positive and purposeful attitudes and values.
+        Being in the campus of the State Technological University, 
+        the UIT-RGPV is in a position to offer excellent and high 
+        quality academic services to the students.
+    </string>
+
+    <string name="history_location_value">
+
+
+        UIT-RGPV is one of the premier engineering institutions in Central India.
+        The Institution was established in the year 1986, by the Government of Madhya Pradesh,
+        as the Government Engineering College (GEC), Bhopal. In 1998 the Government of
+        Madhya Pradesh declared this Institute autonomous and named it as
+        Bhopal Engineering College. This Institute was renamed
+        University Institute of Technology-RGPV
+        (Technological University of the State of Madhya Pradesh) w.e.f.
+        from July 2002 by an order of Govt. of Madhya Pradesh. It is currently known as
+        University Institute of Technology-RGPV, Bhopal or UIT-RGPV.
+
+        The Institution is situated in Bhopal, a city well known for its natural
+        beauty and lakes. The city is well connected to the other parts of the country,
+        by air, rail, and road. The large number of industries situated in and around
+        Bhopal, provide excellent training opportunities to the students and staff.
+    </string>
+
+    <string name="campus_layout_value">
+
+        The institution is situated near Gandhi Nagar on the outskirts of the city,
+        about 3 k.m. from the airport on the Bhopal by pass road. The campus is spread
+        on a contiguous 241.14 acres. The campus has Instructional blocks, Workshop,
+        Library Block and administrative block. Apart from this the campus has residential
+        facilities for the staff and separate hostels for both girls and boys.
+        The institution provides a very healthy academic atmosphere and has
+        large open space, playgrounds and academics parks.
+
+    </string>
+    <string name="title_activity_student_list">StudentList</string>
+
+    <string-array name="event_feed_zero">
+
+        <item>Dalal Street</item>
+        <item>Code.IO</item>
+        <item>Eureka</item>
+        <item>Horcrux</item>
+        <item>Quizologist</item>
+        <item>Novus</item>
+        <item>Hackathon</item>
+        <item>Gauntlet</item>
+        <item>Labyrinth</item>
+
+    </string-array>
+
+    <string-array name="event_feed_one">
+
+        <item>AutoCAD</item>
+        <item>Machine Learning</item>
+        <item>Stock Trading</item>
+
+    </string-array>
+
+    <string-array name="event_feed_two">
+
+        <item>Project Green</item>
+        <item>Project Fuel</item>
+        <item>#GiveItUp</item>
+
+    </string-array>
+
+    <string-array name="event_feed_three">
+
+        <item>Open Mic</item>
+        <item>Laser Tag</item>
+        <item>Paint Ball</item>
+        <item>Pro Barati</item>
+
+    </string-array>
+
+
+    <string name="map_url">https://www.google.co.in/maps/place/University+Institute+of+Technology+Rajiv+Gandhi+Proudyogiki+Vishwavidyalay/@23.3116492,77.3598258,674m/data=!3m1!1e3!4m5!3m4!1s0x397c663bcd438943:0x61fa14b9082ec6c1!8m2!3d23.3116492!4d77.3620145</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="circle">
+        M527.023,71.8233 C780.213,71.8233,985.464,277.075,985.464,530.265
+        C985.464,783.455,780.213,988.707,527.023,988.707
+        C273.832,988.707,68.5809,783.455,68.5809,530.265
+        C68.5809,277.075,273.832,71.8233,527.023,71.8233 Z
+  </string>
+    <integer name="circle_original_width">1062</integer>
+    <integer name="circle_original_height">1062</integer>
+
+    <string name="phoenix_intro">
+
+        Phoenix is the official technical society of UIT-RGPV,
+        is known in the institute for its efforts to give enthusiasts
+        a chance to showcase their potential by taking part in various
+        events organised by it. The team consists of 38 members currently
+        who work inconspicuously in the backdrop to make each and every event
+        a grand success. Equipped with new ideas, we aim to put forth such
+        matches where every student can see himself playing in the ground,
+        may it be in the form of ‘Quizologist’, ‘Dalal Street’, ‘Tech.Rex’
+        and many others. Not just that, we provide battlefields for novitiates
+        from various colleges in the form of inter-college events.
+
+    </string>
+
+
+    <string-array name="names">
+
+        <item>Shivam</item>
+        <item>Harsh</item>
+        <item>Yash</item>
+        <item>Karan</item>
+        <item>Anmol</item>
+
+        <item>Ashesh</item>
+        <item>Jayesh</item>
+        <item>Ayush</item>
+        <item>Khyati</item>
+        <item>Rajshree</item>
+
+        <item>Piyush</item>
+        <item>Nistha</item>
+        <item>Nikhil</item>
+        <item>Vismay</item>
+
+        <item>Avi</item>
+        <item>Sunidhi</item>
+        <item>Nishant</item>
+        <item>Akshansh</item>
+        <item>Nitesh</item>
+
+        <item>Shivang</item>
+        <item>Ansab</item>
+        <item>Apoorva</item>
+        <item>Pranati</item>
+        <item>Aman</item>
+
+        <item>Gourvi</item>
+        <item>Pooja</item>
+        <item>Neha</item>
+        <item>Aiman</item>
+        <item>‎Vineet</item>
+
+        <item>Adarsh</item>
+        <item>Durva</item>
+        <item>Anuj</item>
+        <item>Ankur</item>
+        <item>Divyanshu</item>
+
+        <item>Bhuvneshwar</item>
+        <item>Aditya</item>
+        <item>Harmendra</item>
+        <item>Siddharth</item>
+
+    </string-array>
+
+    <string-array name="fullnames">
+
+        <item>Shivam Purohit </item>
+        <item>Harsh Vardhan Singh </item>
+        <item>Yash Rajendra Tiwari </item>
+        <item>Karan Kumar </item>
+        <item>Anmol Jain </item>
+
+        <item>Ashesh Pathak </item>
+        <item>Jayesh Bakhshi </item>
+        <item>Ayush Gupta </item>
+        <item>Khyati Pathak </item>
+        <item>Rajshree Rajoria </item>
+
+        <item>Piyush Panjwani </item>
+        <item>Nistha Sharma </item>
+        <item>Nikhil kori </item>
+        <item>Vismay Bhagwat </item>
+
+        <item>Avi Agrawal</item>
+        <item>Sunidhi Sharma </item>
+        <item>Nishant Singh Thakur </item>
+        <item>Akshansh Pagare </item>
+        <item>Nitesh Jain </item>
+
+        <item>Shivang Agrawal </item>
+        <item>Ansab Khan </item>
+        <item>Apoorva Shukla </item>
+        <item>Pranati Pastaria </item>
+        <item>Aman Shrivastava </item>
+
+        <item>Gourvi Singh Kand </item>
+        <item>Pooja dixit </item>
+        <item>Neha Agrawal </item>
+        <item>Aiman Meenai </item>
+        <item>‎Vineet Bharti </item>
+
+        <item>Adarsh patel </item>
+        <item>Durva Pandey </item>
+        <item>Anuj Pandey </item>
+        <item>Ankur Sahu </item>
+        <item>Divyanshu Rathore </item>
+
+        <item>Bhuvneshwar Sharma </item>
+        <item>Aditya Pande </item>
+        <item>Harmendra Verma</item>
+        <item>Siddharth Jain</item>
+
+    </string-array>
+
+    <string-array name="emails">
+
+        <item>sp3090@gmail.com</item>
+        <item>hvs.1610@gmail.com</item>
+        <item>work.yrt@gmail.com</item>
+        <item>karankumar14396@gmail.com</item>
+        <item>anmoljain24@outlook.com</item>
+
+        <item>ashesh.cosmid@gmail.com</item>
+        <item>jayeshbakhshi@gmail.com</item>
+        <item>ayush.gupta.1197@gmail.com</item>
+        <item>khyati_1997@yahoo.in</item>
+        <item>rajshreerajoria897@gmail.com</item>
+
+        <item>piyushpanjwani12@gmail.com</item>
+        <item>Nishtha2212@gmail.com</item>
+        <item>nikhilkori0@gmail.com</item>
+        <item>vismay.bhagwat@gmail.com</item>
+
+        <item>aviagrawal212@gmail.com</item>
+        <item>sunidhisharma2863@gmail.com</item>
+        <item>thakur.nishant11@gmail.com</item>
+        <item>akshpagare215@gmail.com</item>
+        <item>niteshjain9977@gmail.com</item>
+
+        <item>agrawalshivang2626@gmail.com</item>
+        <item>ansabkhan0509@gmail.com</item>
+        <item>apoorva3699@gmail.com</item>
+        <item>01pranati@gmail.com</item>
+        <item>aman.shriva22@gmail.com</item>
+
+        <item>gourvisinghkand@gmail.com</item>
+        <item>pooja.dixit19@gmail.com</item>
+        <item>agrawal.neha97@gmail.com</item>
+        <item>Jalaly.farah@gmail.com</item>
+        <item>Vineetbharti1997@gmail.com</item>
+
+        <item>adarshrpatel19@gmail.com</item>
+        <item>durva.pandey5@gmail.com</item>
+        <item>Pandeyanuj97@gmail.com</item>
+        <item>ankursahu1998@gmail.com</item>
+        <item>divyanshurathore11@gmail.com</item>
+
+        <item>golu03manoj@gmail.com</item>
+        <item>aditayp1604@gmail.com</item>
+        <item>harmendrav@gmail.com</item>
+        <item>sj26031998@gmail.com</item>
+
+    </string-array>
+
+    <string-array name="year_team">
+
+        <item>Fourth</item>
+        <item>Fourth</item>
+        <item>Fourth</item>
+        <item>Fourth</item>
+        <item>Fourth</item>
+
+        <item>Third</item>
+        <item>Third</item>
+        <item>Third</item>
+        <item>Third</item>
+        <item>Third</item>
+
+        <item>Third</item>
+        <item>Third</item>
+        <item>Third</item>
+        <item>Third</item>
+
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+        <item>Second</item>
+
+        <item>Second</item>
+        <item>Third</item>
+        <item>Second</item>
+        <item>First</item>
+
+
+    </string-array>
+
+
+    <integer-array name="team_images">
+
+        <item>@drawable/president</item>
+        <item>@drawable/harsh_vardhan_singh</item>
+        <item>@drawable/yash_tiwari</item>
+        <item>@drawable/karan_kumar</item>
+        <item>@drawable/anmol_jain</item>
+
+        <item>@drawable/ashesh_pathak</item>
+        <item>@drawable/jayesh_bakhshi</item>
+        <item>@drawable/ayush_gupta</item>
+        <item>@drawable/khyati_pathak</item>
+        <item>@drawable/rajshree_rajoria</item>
+
+        <item>@drawable/piyush_panjwani</item>
+        <item>@drawable/nistha_sharma</item>
+        <item>@drawable/nikhil_kori</item>
+        <item>@drawable/vismay_bhagwat</item>
+
+        <item>@drawable/avi_agrawal</item>
+        <item>@drawable/sunidhi_sharma</item>
+        <item>@drawable/nishant_singh_thakur</item>
+        <item>@drawable/akshansh_pagare</item>
+        <item>@drawable/nitesh_jain</item>
+
+        <item>@drawable/shivang_agrawal</item>
+        <item>@drawable/ansab_khan</item>
+        <item>@drawable/apoorva_shukla</item>
+        <item>@drawable/pranati_pastaria</item>
+        <item>@drawable/aman_shrivastava</item>
+
+        <item>@drawable/gourvi_singh_kand</item>
+        <item>@drawable/pooja_dixit</item>
+        <item>@drawable/neha_agrawal</item>
+        <item>@drawable/aiman_meenai</item>
+        <item>@drawable/bineet_bharti</item>
+
+        <item>@drawable/adarsh_patel</item>
+        <item>@drawable/durva_pandey</item>
+        <item>@drawable/anuj_pandey</item>
+        <item>@drawable/ankur_sahu</item>
+        <item>@drawable/divyanshu_rathore</item>
+
+        <item>@drawable/bhuvneshwar_sharma</item>
+        <item>@drawable/aditya_pande</item>
+        <item>@drawable/harmendra</item>
+        <item>@drawable/siddharth</item>
+
+
+    </integer-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="id_generator">
+
+         Note:\nMake sure the candidate receives the email from Convolution Rgpv and
+        register himself/herself to the events from our website \n(www.convolutionrgpv.in)
+        using the Convolution ID provided.
+
+    </string>
+</resources>

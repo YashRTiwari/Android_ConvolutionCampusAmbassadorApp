@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="MyTheme2" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+        <item name="colorPrimary">?android:attr/panelColorBackground</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="actionMenuTextColor">#ffffff</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+
+    </style>
+
+    <style name="MyTheme2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="MyTheme2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

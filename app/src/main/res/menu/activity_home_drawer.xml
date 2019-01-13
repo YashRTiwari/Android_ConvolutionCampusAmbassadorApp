@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/leaderboard"
+            android:icon="@drawable/leaderboard"
+            android:title="Leader Board" />
+
+
+        <item
+            android:id="@+id/idGenerator"
+            android:icon="@drawable/register"
+            android:title="Bhopal Registration" />
+
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/register"
+            android:title="Zonal Registration"
+            android:visible="true"
+            />
+
+        <item
+            android:id="@+id/accommodation"
+            android:icon="@drawable/accommodation_icon"
+            android:title="Accommodation" />
+
+
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Dashboard"
+            android:visible="true"
+            />
+
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/upload"
+            android:title="Upload" />
+        <item
+            android:id="@+id/download"
+            android:icon="@drawable/download"
+            android:title="Download" />
+
+        <item
+            android:id="@+id/uit"
+            android:icon="@drawable/college"
+            android:title="UIT" />
+
+        <item
+            android:id="@+id/phoenix"
+            android:icon="@drawable/phoenix_small"
+            android:title="Phoenix" />
+
+        <item
+            android:id="@+id/team"
+            android:icon="@drawable/team"
+            android:title="Team" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/call"
+                android:icon="@drawable/call"
+                android:title="Call" />
+
+            <item
+                android:id="@+id/techsupport"
+                android:icon="@drawable/techsupport"
+                android:title="Tech Support">
+
+            </item>
+
+        </menu>
+    </item>
+
+
+</menu>

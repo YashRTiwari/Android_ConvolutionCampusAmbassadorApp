@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/signOutButton"
+        android:orderInCategory="1"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="0"
+        android:title="Notification"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/refreshLeaderBoard"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:orderInCategory="4"
+        android:title="Refresh"
+        android:visible="false"
+        app:showAsAction="always"></item>
+
+
+</menu>
