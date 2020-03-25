@@ -1,3 +1,4 @@
 # Android_ConvolutionCampusAmbassadorApp
 
-![](screenshots/1.png)
+<img src="screenshots/1.png width=300/>
+
